@@ -1,4 +1,11 @@
+//가져오기
+//@import url("./sub.scss");
+//1개 이상을 가져올 수 있으며, url()에 
+//안 감싸도 된다.
+@import "./sub.scss", "./sub2.scss";
+
 $color: royalblue;
+
 .container{
   h1{
     color: $color;
